@@ -277,7 +277,7 @@ nav {
   color: var(--color-text);
   margin-bottom: 2rem;
   line-height: 1.1;
-  font-style: normal;
+  font-style: normal !important;
 }
 
 .hero-bio {
@@ -322,13 +322,6 @@ nav {
 
 .hero-content h1 {
   margin-bottom: 0.5rem;
-}
-
-.hero-subtitle {
-  color: var(--color-text-muted);
-  font-style: italic;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
 }
 
 .hero-bio {
